@@ -9,5 +9,13 @@ public static void main(String[] args) {
 			}else {
 				System.out.println("a is not graeter than b");
 			}
+			
+			
+			//we can write without curly braces
+			if ( i >= j) 
+				System.out.println("a is greater than b");
+			else 
+				System.out.println("a is not graeter than b");
+			
 }
 }
