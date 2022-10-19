@@ -2,7 +2,7 @@
 //2. Unary -> ++, --
 package loveDSA;
 //Binary ope.->
-public class $ArithmaticOperators {
+public class $1ArithmaticOperators {
 	public static void main(String[] args) {
 		int A = 20;
 		int B = 10;
