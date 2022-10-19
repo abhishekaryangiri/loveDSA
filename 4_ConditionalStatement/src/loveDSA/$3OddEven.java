@@ -1,0 +1,18 @@
+// prime num: div by 1 and itself or div by 2 or multiple of 2
+package loveDSA;
+
+import java.util.Scanner;
+
+public class $3OddEven {
+	public static void main(String[] args) {
+		try (Scanner num = new Scanner(System.in)) {
+			int value  = num.nextInt();
+			
+			if (value % 2 ==0) {
+				System.out.println(value +"   is Even");
+			} else {
+				System.out.println(value + "  is Odd");
+			}
+		}
+	}
+}
