@@ -13,6 +13,7 @@ package loveDSA;
 public class $10Switch {
 	public static void main(String[] args) {
 		int num = 20;
+		// practice with using char, double etc
 		switch( num) {
 		case 1 : System.out.println("Bangalore");
 		break;
