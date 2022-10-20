@@ -14,5 +14,11 @@ public class $2PrintNum1to20 {
 			 System.out.println(s*2);
 			 s++;
 		 }
+		 System.out.println("print 1 to 100 in row");
+		 int starter= 1;
+		 while( starter <= 10) {
+			 System.out.print(starter);
+			 starter++;
+		 }
 	}
 }
