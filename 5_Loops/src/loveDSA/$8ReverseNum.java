@@ -1,5 +1,5 @@
 package loveDSA;
-
+// unit digit method
 public class $8ReverseNum {
 public static void main(String[] args) {
 	int num = 123456789;
@@ -9,6 +9,6 @@ public static void main(String[] args) {
 		reverse= (reverse* 10) + ld;  // rev = (rev *10) + last digit
 		num = num/10;
 	}
-	System.out.print("  "+reverse);
+	System.out.print(reverse);
 }
 }
