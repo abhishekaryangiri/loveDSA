@@ -1,0 +1,13 @@
+// a++ Increment, a-- decrement
+// ++a Pre Inc. > Steps:  Change value >  then use,  a++ post Inc.
+// --a Pre dec.,  a-- post dec.
+package loveDSA;
+
+public class $2UnaryOper {
+public static void main(String[] args) {
+	int a = 10;
+	int b = ++a;
+	System.out.println(a);
+	System.out.println(b);
+}
+}

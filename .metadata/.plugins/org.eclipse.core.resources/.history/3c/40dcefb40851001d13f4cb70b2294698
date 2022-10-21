@@ -1,0 +1,12 @@
+package loveDSA;
+
+public class $9RevNum1 {
+	public static void main(String[] args) {
+		int num = 123456789;
+		 if ( num > 0){
+			 int rev = num%10;
+			 System.out.println(rev);
+			 num = num/10;
+		 }
+	}
+}

@@ -1,0 +1,14 @@
+package loveDSA;
+
+public class $4SunFirstnNatNum {
+	public static void main(String[] args) {
+		int sum = 0;
+		int start = 0;
+		 while( start <= 10) {
+			 sum+=start;
+		 }
+		 System.out.println(sum);
+		 start++;
+	}
+
+}

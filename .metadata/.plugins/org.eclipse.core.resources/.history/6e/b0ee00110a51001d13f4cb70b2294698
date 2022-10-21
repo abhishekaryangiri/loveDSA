@@ -1,0 +1,14 @@
+package loveDSA;
+
+public class $8ReverseNum {
+public static void main(String[] args) {
+	int num = 12345;
+	int i = 10;
+	while( i>0) {
+		int ld = num%10;
+		i = (i* 10) + ld;  // rev = (rev *10) + last digit
+		num = num/10;
+	}
+	System.out.println(i);
+}
+}
