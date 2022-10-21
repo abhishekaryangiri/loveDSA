@@ -8,15 +8,16 @@ public class $17CheckPrimeSca {
 		int ui = abhi.nextInt();
 		
 		boolean check = true;
-		for( int i=2;i<ui;i++) {
+		for( int i=2;i<Math.sqrt(ui);i++) {
+			//for( int i=2; i<ui; i++) {
 			if( ui%i==0)
 			check = false;
 		}
 	
 	if(check==true) {
-		System.out.println(  "  -> Prime");
+		System.out.println( ui+ "  -> Prime");
 	}else {
-		System.out.println( "   -> not prime");
+		System.out.println( ui+"   -> not prime");
 	}
 	}
 }
