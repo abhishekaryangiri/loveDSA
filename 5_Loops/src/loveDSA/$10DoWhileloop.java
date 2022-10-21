@@ -1,0 +1,22 @@
+// do-while
+//1st- do, then 2-work( check cond)
+//syntax:
+
+// do {   work some work
+// code
+//   }while(condition)   then check condition
+
+
+package loveDSA;
+
+public class $10DoWhileloop {
+	public static void main(String[] args) {
+		int chakra  = 1;
+		do {
+		System.out.println("Hello Visitors");
+		chakra++;
+	}
+		while ( chakra <=20);
+		//kam phle krtey h condition badd me chek krtey h
+	}
+}
