@@ -1,0 +1,10 @@
+# Operators: Symbol that tell compiler to perform some operation
+ex->  sum=a+b
+here a & b are operands | +-> Operator expression
+
+=> Type of Operators:
+1. Airthmatic Opr ( Binary/Unary/Ternary. Oper.)
+2. Relation ope.
+3. Logical oper.
+4. Bitwise ope.
+5Assignment oper.

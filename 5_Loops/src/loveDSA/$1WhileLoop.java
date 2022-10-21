@@ -1,0 +1,19 @@
+package loveDSA;
+//loop: repete
+//1. While, 2.for, 3. Do While
+//letas start with While
+// syntex: 
+
+//    while(condition){
+//// code
+//   }
+public class $1WhileLoop {
+	public static void main(String[] args) {
+		//print Hello Bro 10 times
+		int start = 0;
+		while ( start < 10) {
+			System.out.println("Hello Bro.");
+			start++;
+		}
+	}
+}

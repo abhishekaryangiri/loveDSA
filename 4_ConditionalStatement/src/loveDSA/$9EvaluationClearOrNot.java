@@ -1,0 +1,10 @@
+// evalution score > 60 && assignment score > 50 -> moving in next unit
+package loveDSA;
+
+public class $9EvaluationClearOrNot {
+public static void main(String[] args) {
+	 int evaScore = 70;
+	 String unitMovReport = evaScore >= 70 ? "ready to move in next unit" : "repeate this unit";
+	 System.out.println(unitMovReport);
+}
+}
