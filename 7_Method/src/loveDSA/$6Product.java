@@ -11,8 +11,8 @@ public class $6Product {
 		int  output = mul(i, j);
 		System.out.println("product :  "+ output);
 		
-		output = mul(40, 60);
-		System.out.println("Second mul:  "+output);
+//		output = mul(40, 60);
+//		System.out.println("Second mul:  "+output);
 		
 	}
 
