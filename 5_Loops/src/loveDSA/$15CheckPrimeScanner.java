@@ -12,7 +12,7 @@ public class $15CheckPrimeScanner {
 			for ( int i=2; i<=ui-1; i++) {
 				if(ui%i==0) {
 					
-					System.out.println(ui+ "   ->Not a Prime Num");
+					System.out.println(ui+ "   ->Not a Prime Number");
 					break;
 				}else {
 					System.out.println(ui+ "    -> is a Prime Numb");
