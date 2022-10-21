@@ -1,0 +1,17 @@
+
+// 12345
+//54321
+//last digit concept : if we devide any num by 10 then we will get rem that is last digit
+package loveDSA;
+
+public class $7ReverseNum {
+		public static void main(String[] args) {
+			int num = 12345;
+			while (num>0) {
+				int ld = num%10;
+				System.out.println(ld);
+				num = num/10;
+			}
+			System.out.println();
+		}
+}

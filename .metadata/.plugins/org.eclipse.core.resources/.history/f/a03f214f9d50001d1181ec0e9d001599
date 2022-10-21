@@ -1,0 +1,9 @@
+package loveDSA;
+
+public class $2PrintNum1to20 {
+		 int start = 1;
+		 while( start<10) {
+			 System.out.println(start);
+			 start++;
+		 }
+}

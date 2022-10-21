@@ -1,0 +1,25 @@
+// Syntax: 
+
+//  switch(variable) {
+//  case 1 :
+//  case 2 :
+//  case 3 :
+//	  default :
+//  }
+
+// it will compare cases with variable-> if cond true then print
+package loveDSA;
+
+public class $10Switch {
+	public static void main(String[] args) {
+		int num = 2;
+		switch( num) {
+		case 1 : System.out.println("Bangalore");
+		case 2 : System.out.println("Delhi");
+		case 3 : System.out.println(" Puna");
+		case 4 :  System.out.println("Mumbai");
+		default : System.out.println("USA");
+		}
+	}
+
+}

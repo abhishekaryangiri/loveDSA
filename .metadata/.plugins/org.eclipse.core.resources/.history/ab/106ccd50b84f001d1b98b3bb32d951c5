@@ -1,0 +1,15 @@
+package loveDSA;
+
+public class $7FindLargerNum {
+public static void main(String[] args) {
+	int i = 40; int j = 5; int k = 26;
+	if(   i>= j && i >= k) {
+		System.out.println( i + "   : is larger than others");
+	}
+	else if(  j >=i && j >=k) {
+		System.out.println(j + "   : is greater than others");
+	}else {
+		System.out.println(k+ "   : is greater than others");
+	}
+}
+}

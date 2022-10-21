@@ -1,0 +1,21 @@
+package loveDSA;
+
+import java.util.Scanner;
+
+public class $15CheckPrimeScanner {
+	public static boolean main(String[] args) {
+		Scanner abhi = new Scanner(System.in);
+		int ui = abhi.nextInt();
+
+		for ( int i=2; i<=ui-1; i++) {
+			if(ui%i==0) {
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+		System.out.println(ui);
+	}
+
+}

@@ -1,0 +1,15 @@
+package loveDSA;
+
+import java.util.Scanner;
+
+public class $15CheckPrimeScanner {
+	public static void main(String[] args) {
+		Scanner abhi = new Scanner(System.in);
+		int ui = abhi.nextInt();
+		int count = 0;
+		for ( int i=0; i<=ui; i++) {
+			
+		}
+	}
+
+}

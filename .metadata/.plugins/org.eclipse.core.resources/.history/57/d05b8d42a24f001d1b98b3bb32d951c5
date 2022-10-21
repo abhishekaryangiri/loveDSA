@@ -1,0 +1,11 @@
+//1.Binary -> +, -, *, /, %,
+//2. Unary -> ++, --
+package loveDSA;
+
+public class $ArithmaticOperators {
+	public static void main(String[] args) {
+		int A = 20;
+		int B = 10;
+		System.out.println("Sum:  "+ + (A+B));
+}
+}
