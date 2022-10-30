@@ -1,7 +1,7 @@
-//funcrion overloading with parameter
+//funcrion overloading using parameter
 package loveDSA;
 
-public class $9FunctionOverloading {
+public class $9FunctionOverloadingUsingParameter {
 	// function to calculate sum of 2 no..
 	public static int sum(int a, int b) {
 		return a+b;
