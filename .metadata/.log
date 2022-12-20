@@ -8277,3 +8277,6 @@ java.nio.file.FileSystemException: C:\Users\bitto\Desktop\GitHub\loveDSA\5_g_Arr
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.launching 4 107 2022-12-20 23:33:45.594
+!MESSAGE Launch configuration Arrays references non-existing project 5_g_Arrays.
