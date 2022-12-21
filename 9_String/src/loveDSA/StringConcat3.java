@@ -3,7 +3,7 @@
  */
 package loveDSA;
 
-public class StringConcat4 {
+public class StringConcat3 {
 public static void main(String[] args) {
 	 // Custom string 1
     String str1 = "Computer ";
