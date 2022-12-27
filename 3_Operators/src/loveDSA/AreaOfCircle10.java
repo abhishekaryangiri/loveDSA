@@ -19,6 +19,6 @@ public static void main(String[] args) {
 	
 	double area_Circle = (double) (pi * r * r);
 	
-	System.out.println("area of circle: "+area_Circle);
+	System.out.println("area of circle:  "+area_Circle);
 }
 }
