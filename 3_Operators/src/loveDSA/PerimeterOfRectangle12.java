@@ -1,4 +1,5 @@
 //perimeter of rectangle = 2(l1+ l2)
+//Perimeter is total distance covered by the boundary of a shape
 package loveDSA;
 
 import java.util.Scanner;
