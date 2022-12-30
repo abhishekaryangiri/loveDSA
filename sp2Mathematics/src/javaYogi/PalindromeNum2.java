@@ -9,7 +9,7 @@ public class PalindromeNum2 {
 			rev = (rev*10) + (rev%10);
 			count = count/10;
 		}
-		return (rev == n);
+		return (n == rev);
 		//if it is true then it will return 1 , if false then 0
 
 	}
