@@ -4,7 +4,7 @@ public class CountDigits1 {
 //count digit
 	static int countDigits(int n) {
 		int ans = 0;
-		while( n>1) {
+		while( n>0) {
 			n = n/10;
 			ans++;
 		}
