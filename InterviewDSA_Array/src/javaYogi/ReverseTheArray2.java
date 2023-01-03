@@ -9,8 +9,7 @@ Output : arr[] = {2, 1, 5, 4}
 	
 	 /* Function to reverse arr[] from
     start to end*/
-    static void rvereseArray(int arr[],
-                    int start, int end)
+    static void rvereseArray(int arr[], int start, int end)
     {
         int temp;
           
@@ -26,8 +25,7 @@ Output : arr[] = {2, 1, 5, 4}
       
     /* Utility that prints out an
     array on a line */
-    static void printArray(int arr[],
-                            int size)
+    static void printArray(int arr[],  int size)
     {
         for (int i = 0; i < size; i++)
              System.out.print(arr[i] + " ");
