@@ -7,8 +7,10 @@ public static void main(String[] args) {
 	for(int i=0; i<arr.length; i++) {
 		if(arr[i]==4) {
 			System.out.println("Element Found");
+			break;
 		}else {
 			System.out.println("Element not Found");
+			break;
 		}
 	}
 }
