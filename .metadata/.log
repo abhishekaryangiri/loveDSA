@@ -10824,3 +10824,46 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\bitto\eclipse\java-2022-0
 	at java.base/java.nio.file.Files.move(Files.java:1432)
 	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
 	... 8 more
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-01-07 00:00:05.957
+!MESSAGE Exception saving preferences to: C:/Users/bitto/eclipse/java-2022-06/eclipse/configuration/.settings/com.genuitec.eclipse.monitor.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\bitto\eclipse\java-2022-06\eclipse\configuration\.settings\com.genuitec.eclipse.monitor.prefs.bak
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:334)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1042)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:428)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:386)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.recordIdeUsed(WebclipseMetricsProvider.java:178)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.access$3(WebclipseMetricsProvider.java:152)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider$1.run(WebclipseMetricsProvider.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2023-01-07 00:00:06.026
+!MESSAGE Exception saving preferences to: C:/Users/bitto/eclipse/java-2022-06/eclipse/configuration/.settings/com.genuitec.eclipse.monitor.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/Users/bitto/eclipse/java-2022-06/eclipse/configuration/.settings/com.genuitec.eclipse.monitor.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:296)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1042)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:428)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:386)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.recordIdeUsed(WebclipseMetricsProvider.java:178)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.access$3(WebclipseMetricsProvider.java:152)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider$1.run(WebclipseMetricsProvider.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\bitto\eclipse\java-2022-06\eclipse\configuration\.settings\com.genuitec.eclipse.monitor.prefs.bak
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:334)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	... 8 more
