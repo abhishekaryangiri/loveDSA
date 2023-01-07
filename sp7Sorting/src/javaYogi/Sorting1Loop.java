@@ -10,7 +10,7 @@ package javaYogi;
 
 public class Sorting1Loop {
 public static void main(String[] args) {
-	//sorting using loop
+	//1 sorting using loop
 	  // Custom input array
     int arr[] = { 4, 3, 2, 1 };
 
