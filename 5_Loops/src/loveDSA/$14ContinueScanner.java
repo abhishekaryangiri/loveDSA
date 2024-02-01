@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class $14ContinueScanner {
 
 	public static void main(String[] args) {
+
 		Scanner abhi = new Scanner(System.in);
 		do {
 			System.out.println("Enter digit");
