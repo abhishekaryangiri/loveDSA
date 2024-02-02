@@ -7,6 +7,7 @@ public class Arrays {
 	public static void main(String [] args){
 
         // int[] marks = new int[6];
+
         // marks[0] = 92 ; //phy
         // marks[1] = 92 ; //chem
         // marks[2] = 88 ; //math
