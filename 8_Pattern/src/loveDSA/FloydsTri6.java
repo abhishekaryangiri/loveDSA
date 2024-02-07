@@ -1,6 +1,7 @@
 package loveDSA;
 
 public class FloydsTri6 {
+
 //Fload's triangle
 	public  static void floidTri( int n) {
 		int  count = 1;
