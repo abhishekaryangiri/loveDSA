@@ -10,6 +10,7 @@ public class BitOperations {
 
     //Set ith Bit
     public static int setIthBit(int n, int i) {
+
         int bitMask = 1<<i;
         return n | bitMask;
     }
