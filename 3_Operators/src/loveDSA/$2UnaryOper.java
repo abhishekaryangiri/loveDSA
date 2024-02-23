@@ -7,6 +7,7 @@ package loveDSA;
 public class $2UnaryOper {
 
 public static void main(String[] args) {
+
 	int a = 10;
 	int b = ++a;
 	int c = 10;
