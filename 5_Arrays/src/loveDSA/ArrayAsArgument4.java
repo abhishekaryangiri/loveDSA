@@ -8,7 +8,6 @@ public class ArrayAsArgument4 {
 		}
 	}
 	public static void main(String[] args) {
-
 		int score[] = {105, 106, 98};
 		update(score);
 		for( int i=0; i<score.length;i++) {
