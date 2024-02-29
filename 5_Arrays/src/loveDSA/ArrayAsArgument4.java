@@ -3,7 +3,6 @@ package loveDSA;
 public class ArrayAsArgument4 {
 //array as argument
 	public static void update(int score[]) {
-
 		for( int i=0;i<score.length;i++) {
 			score[i] = score[i]+ 5;
 		}
